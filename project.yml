@@ -1,0 +1,53 @@
+name: Form
+options:
+  bundleIdPrefix: com.jeremylien
+  deploymentTarget:
+    iOS: '17.0'
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    TARGETED_DEVICE_FAMILY: '1'
+    CODE_SIGN_STYLE: Automatic
+targets:
+  Form:
+    type: application
+    platform: iOS
+    sources: [Form]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeremylien.form
+        TARGETED_DEVICE_FAMILY: '1'
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSCameraUsageDescription: Form uses the camera and LiDAR to measure objects in your space. Scans stay on your device.
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        MARKETING_VERSION: '0.1.0'
+        CURRENT_PROJECT_VERSION: '1'
+  FormTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [FormTests]
+    dependencies:
+      - target: Form
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+  FormUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [FormUITests]
+    dependencies:
+      - target: Form
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  Form:
+    build:
+      targets:
+        Form: all
+    test:
+      targets: [FormTests, FormUITests]

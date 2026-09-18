@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03745810CA7E7328B81429BB /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B1AADB8405ED8878555AC /* Measurement.swift */; };
+		223152441D7D10073662AEFA /* ScanSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A086883593C7FA49B2A843E /* ScanSession.swift */; };
+		4877441D442BA5C0E88FEFA3 /* DepthScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C863DC71EDE7F626B33D9D /* DepthScanner.swift */; };
+		81C6EEEA52A34DCE48BBBFA5 /* DemoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C1C2E51A720B1975C87BD7 /* DemoScene.swift */; };
+		90E3CA78BAD320BE5C0D22AA /* MeasurementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D20B68A68855AD0853D87 /* MeasurementTests.swift */; };
+		B5196EFDF45B508CF2E8B76E /* FormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC47ED278F101DEC10988A5 /* FormApp.swift */; };
+		BE9A0DDCC0EFF8FB7E1054D2 /* ScanFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3AD086EE4C493B295E6021 /* ScanFlowTests.swift */; };
+		FC9AE6747E1CC18442A24C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258993717D9FFBFF7816D305 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D69E5313C22B000CB3A89BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BAA3129189995054C749489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0328E20872D2B6A468B6D5;
+			remoteInfo = Form;
+		};
+		76BBBA53DBB1816D5F96B2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BAA3129189995054C749489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0328E20872D2B6A468B6D5;
+			remoteInfo = Form;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189D20B68A68855AD0853D87 /* MeasurementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementTests.swift; sourceTree = "<group>"; };
+		1EE16E8DD052ED8C562659E7 /* FormTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		225B1AADB8405ED8878555AC /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		258993717D9FFBFF7816D305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDA95C24E9E4C5B595EB546 /* Form.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Form.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4113F742C4B3309F31C563 /* FormUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3AD086EE4C493B295E6021 /* ScanFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanFlowTests.swift; sourceTree = "<group>"; };
+		9A086883593C7FA49B2A843E /* ScanSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanSession.swift; sourceTree = "<group>"; };
+		C7C1C2E51A720B1975C87BD7 /* DemoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScene.swift; sourceTree = "<group>"; };
+		EDC47ED278F101DEC10988A5 /* FormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp.swift; sourceTree = "<group>"; };
+		F7C863DC71EDE7F626B33D9D /* DepthScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthScanner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		28F9646A160B92C7AA7C2106 /* FormTests */ = {
+			isa = PBXGroup;
+			children = (
+				189D20B68A68855AD0853D87 /* MeasurementTests.swift */,
+			);
+			path = FormTests;
+			sourceTree = "<group>";
+		};
+		58845652D756BBA548668D44 = {
+			isa = PBXGroup;
+			children = (
+				A955EB8EFFA4608C1E60E3EC /* Form */,
+				28F9646A160B92C7AA7C2106 /* FormTests */,
+				D3236B95EF8503A9491DD8DD /* FormUITests */,
+				79735BD1C08AA6A43AAA2835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79735BD1C08AA6A43AAA2835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA95C24E9E4C5B595EB546 /* Form.app */,
+				1EE16E8DD052ED8C562659E7 /* FormTests.xctest */,
+				5A4113F742C4B3309F31C563 /* FormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A955EB8EFFA4608C1E60E3EC /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				258993717D9FFBFF7816D305 /* Assets.xcassets */,
+				C7C1C2E51A720B1975C87BD7 /* DemoScene.swift */,
+				F7C863DC71EDE7F626B33D9D /* DepthScanner.swift */,
+				EDC47ED278F101DEC10988A5 /* FormApp.swift */,
+				225B1AADB8405ED8878555AC /* Measurement.swift */,
+				9A086883593C7FA49B2A843E /* ScanSession.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		D3236B95EF8503A9491DD8DD /* FormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D3AD086EE4C493B295E6021 /* ScanFlowTests.swift */,
+			);
+			path = FormUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C0328E20872D2B6A468B6D5 /* Form */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE871A4DD9C8966DCD60191E /* Build configuration list for PBXNativeTarget "Form" */;
+			buildPhases = (
+				82FA974117A694A4C7734F5F /* Sources */,
+				69D9EF94F92A51731F0F7762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Form;
+			packageProductDependencies = (
+			);
+			productName = Form;
+			productReference = 4CDA95C24E9E4C5B595EB546 /* Form.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D7CA9AF6A46CFC7B82457F1 /* FormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C955FDDE74D4948825C1FC /* Build configuration list for PBXNativeTarget "FormTests" */;
+			buildPhases = (
+				6BE0E98FFDD0E4F8372D3A2D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB65A73D5E408633FF7551CD /* PBXTargetDependency */,
+			);
+			name = FormTests;
+			packageProductDependencies = (
+			);
+			productName = FormTests;
+			productReference = 1EE16E8DD052ED8C562659E7 /* FormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DE77C7CB524C150EBB7EF0F /* FormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBABCD7A592318C4410B4FB /* Build configuration list for PBXNativeTarget "FormUITests" */;
+			buildPhases = (
+				24EB1899E47FE3EFA337E4BF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047D379511957FF2285868A4 /* PBXTargetDependency */,
+			);
+			name = FormUITests;
+			packageProductDependencies = (
+			);
+			productName = FormUITests;
+			productReference = 5A4113F742C4B3309F31C563 /* FormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAA3129189995054C749489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6C0328E20872D2B6A468B6D5 = {
+						ProvisioningStyle = Automatic;
+					};
+					6D7CA9AF6A46CFC7B82457F1 = {
+						ProvisioningStyle = Automatic;
+					};
+					6DE77C7CB524C150EBB7EF0F = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C0328E20872D2B6A468B6D5;
+					};
+				};
+			};
+			buildConfigurationList = 5D3EB37C0ED779C155C1D0C5 /* Build configuration list for PBXProject "Form" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 58845652D756BBA548668D44;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 79735BD1C08AA6A43AAA2835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C0328E20872D2B6A468B6D5 /* Form */,
+				6D7CA9AF6A46CFC7B82457F1 /* FormTests */,
+				6DE77C7CB524C150EBB7EF0F /* FormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D9EF94F92A51731F0F7762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9AE6747E1CC18442A24C43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24EB1899E47FE3EFA337E4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9A0DDCC0EFF8FB7E1054D2 /* ScanFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE0E98FFDD0E4F8372D3A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E3CA78BAD320BE5C0D22AA /* MeasurementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FA974117A694A4C7734F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C6EEEA52A34DCE48BBBFA5 /* DemoScene.swift in Sources */,
+				4877441D442BA5C0E88FEFA3 /* DepthScanner.swift in Sources */,
+				B5196EFDF45B508CF2E8B76E /* FormApp.swift in Sources */,
+				03745810CA7E7328B81429BB /* Measurement.swift in Sources */,
+				223152441D7D10073662AEFA /* ScanSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047D379511957FF2285868A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0328E20872D2B6A468B6D5 /* Form */;
+			targetProxy = 76BBBA53DBB1816D5F96B2D9 /* PBXContainerItemProxy */;
+		};
+		EB65A73D5E408633FF7551CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0328E20872D2B6A468B6D5 /* Form */;
+			targetProxy = 2D69E5313C22B000CB3A89BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A495E91CD4A85AE590C236E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremylien.FormUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Form;
+			};
+			name = Release;
+		};
+		2479BE4F2F9324F2EA3A6B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Form uses the camera and LiDAR to measure objects in your space. Scans stay on your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremylien.form;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7455F35E0C04D92128E111B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremylien.FormTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Form.app/Form";
+			};
+			name = Release;
+		};
+		812FA7586487842B52B0E2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremylien.FormTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Form.app/Form";
+			};
+			name = Debug;
+		};
+		9B18DEA82E3908D026AA6685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremylien.FormUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Form;
+			};
+			name = Debug;
+		};
+		CC4F43B389C230CF9FE1CD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Form uses the camera and LiDAR to measure objects in your space. Scans stay on your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremylien.form;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D53A68CFB8952DE50449862C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F019626389FC3D7AEDFA5126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47C955FDDE74D4948825C1FC /* Build configuration list for PBXNativeTarget "FormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812FA7586487842B52B0E2E0 /* Debug */,
+				7455F35E0C04D92128E111B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D3EB37C0ED779C155C1D0C5 /* Build configuration list for PBXProject "Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53A68CFB8952DE50449862C /* Debug */,
+				F019626389FC3D7AEDFA5126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EBABCD7A592318C4410B4FB /* Build configuration list for PBXNativeTarget "FormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B18DEA82E3908D026AA6685 /* Debug */,
+				0A495E91CD4A85AE590C236E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE871A4DD9C8966DCD60191E /* Build configuration list for PBXNativeTarget "Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2479BE4F2F9324F2EA3A6B34 /* Debug */,
+				CC4F43B389C230CF9FE1CD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BAA3129189995054C749489 /* Project object */;
+}
